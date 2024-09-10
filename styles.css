@@ -1,0 +1,157 @@
+body { 
+font-family: Arial, sans-serif;
+text-align: center;
+margin: 0;
+padding: 0;
+background-color: black;
+background-image: radial-gradient(white 1px, transparent 1px);
+background-size: 10px 10px;
+color: white;
+}
+
+#logo {
+display: block;
+margin: 20px auto;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+#myButton {
+background-color: #4CAF50;
+color: #fff;
+padding: 15px 30px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 18px;
+margin-top: 50px;
+}
+
+#myButton:hover {
+background-color: #3e8e41;
+}
+
+.welcome-body {
+background: linear-gradient(135deg, black, red, white);
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0;
+padding: 0;
+}
+
+.welcome-message {
+font-size: 24px;
+color: black; 
+text-align: center;
+margin-top: 10px;
+text-transform: lowercase; 
+}
+
+#continueButton {
+background-color: red; /* Cor vermelha */
+color: white;
+padding: 15px 40px; /* Tamanho maior */
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 18px;
+margin-top: 20px;
+}
+
+.api-body {
+background: linear-gradient(135deg, black, red, white); 
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0;
+padding: 0;
+}
+
+.api-title {
+font-size: 16px; 
+margin-top: 0; 
+padding-top: 20px; 
+color: black; 
+text-align: center;
+font-weight: bold;
+position: relative;
+top: 0; 
+}
+
+.api-button {
+background-color: #4CAF50; 
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+margin: 10px;
+cursor: pointer;
+width: 160px;
+}
+
+.api-button:hover {
+background-color: #3e8e41;
+}
+
+.support-section {
+margin-top: 50px;
+text-align: center;
+}
+
+.support-button {
+background-color: #FF5733; 
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+margin-top: 20px;
+cursor: pointer;
+}
+
+
+.support-button:hover {
+background-color: #FF2E00;
+}
+
+@media only screen and (max-width: 600px) {
+.welcome-message {
+font-size: 20px; 
+}
+
+#continueButton {
+padding: 10px 30px;
+font-size: 16px;
+}
+
+.api-button {
+width: 135px;
+font-size: 12px;
+}
+
+.support-button {
+width: 135px;
+font-size: 12px;
+}
+
+.api-title {
+font-size: 18px; 
+}
+
+#welcome-logo {
+display: block;
+margin: 20px auto;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+}    
+}

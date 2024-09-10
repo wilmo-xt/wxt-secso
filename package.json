@@ -1,0 +1,35 @@
+{
+"name": "sexo",
+"version": "1.0.0",
+"description": "Projeto Node.js utilizando Express e outras dependências.",
+"main": "index.js",
+"author": "wilmo",
+"license": "MIT",
+"scripts": {
+"start": "node index.js",
+"dev": "nodemon index.js",
+"test": "echo \"Error: no test specified\" && exit 1"
+},
+"dependencies": {
+"express": "latest",
+"cheerio": "latest",
+"node-fetch": "latest",
+"axios": "latest",
+"mathjs": "latest",
+"url": "latest",
+"qs": "latest",
+"request": "latest",
+"cookie": "latest",
+"form-data": "latest",
+"jsdom": "latest",
+"file-type": "latest",
+"betabotz-tools": "latest",
+"btch-downloader": "latest",
+"fs": "0.0.1-security",
+"g-i-s": "^2.1.7",
+"google-it": "^1.6.3"
+},
+"devDependencies": {
+"nodemon": "latest"
+}
+}
